@@ -1,0 +1,45 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-bg: light-dark(#dcdedf, #1e1f23);
+  --color-surface: light-dark(#e5e6e7, #26272b);
+  --color-text: light-dark(#1c1e21, #e5e7eb);
+  --color-text-muted: light-dark(#444648, #a1a1aa);
+  --color-border: light-dark(#bcbec0, #3a3b3f);
+  --color-navbar-bg: light-dark(#d3d4d6, #232427aa);
+
+  --color-primary: light-dark(#1d4ed8, #60a5fa);
+  --color-primary-hover: light-dark(#1e3a8a, #3b82f6);
+  --color-secondary: light-dark(#0f766e, #34d399);
+  --color-secondary-hover: light-dark(#115e59, #10b981);
+
+  --color-card-bg: light-dark(#e7e8e9, #2b2c30);
+  --color-input-bg: light-dark(#e0e1e2, #323338);
+  --color-shadow: light-dark(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.25));
+}
+
+.light {
+  color-scheme: light;
+}
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+#content {
+    padding-top: calc(2rem + 2 * 1rem);
+}
+
